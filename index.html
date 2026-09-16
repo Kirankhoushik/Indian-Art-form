@@ -1,0 +1,394 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>India Through Art | Interactive Timeline</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">INDIAN ART HISTORY</p>
+
+            <h1>India Through Art</h1>
+
+            <p class="subtitle">
+                An interactive journey through thousands of years of
+                Indian art, culture and craftsmanship.
+            </p>
+
+            <button class="explore-btn" onclick="scrollToTimeline()">
+                Explore Timeline ↓
+            </button>
+        </div>
+    </header>
+
+
+    <!-- TIMELINE SECTION -->
+    <main id="timeline-section">
+
+        <section class="intro">
+            <p class="section-label">TIMELINE</p>
+
+            <h2>A Journey Through Indian Art</h2>
+
+            <p>
+                Explore important artworks and artifacts from different
+                periods of Indian history. Click on an artifact to discover
+                its history, material, technique and cultural significance.
+            </p>
+        </section>
+
+
+        <section class="timeline-container">
+
+            <div class="timeline-line"></div>
+
+
+            <!-- ARTIFACT 1 -->
+            <article class="timeline-item left">
+
+                <div class="timeline-date">
+                    <span>c. 2500 BCE</span>
+                </div>
+
+                <button class="artifact-card"
+                        onclick="openArtifact('dancing-girl')">
+
+                    <div class="artifact-image">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/3/32/Dancing_girl_of_Mohenjo-daro.jpg"
+                            alt="Dancing Girl of Mohenjo-daro">
+                    </div>
+
+                    <div class="artifact-info">
+                        <span class="period">INDUS VALLEY CIVILIZATION</span>
+
+                        <h3>Dancing Girl</h3>
+
+                        <p>
+                            One of the most famous bronze sculptures
+                            discovered at Mohenjo-daro.
+                        </p>
+
+                        <span class="click-hint">
+                            Click to explore →
+                        </span>
+                    </div>
+
+                </button>
+            </article>
+
+
+            <!-- ARTIFACT 2 -->
+            <article class="timeline-item right">
+
+                <div class="timeline-date">
+                    <span>c. 250 BCE</span>
+                </div>
+
+                <button class="artifact-card"
+                        onclick="openArtifact('lion-capital')">
+
+                    <div class="artifact-image">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sarnath_capital.jpg"
+                            alt="Lion Capital of Ashoka">
+                    </div>
+
+                    <div class="artifact-info">
+                        <span class="period">MAURYAN PERIOD</span>
+
+                        <h3>Lion Capital of Ashoka</h3>
+
+                        <p>
+                            A celebrated example of Mauryan stone
+                            craftsmanship and imperial art.
+                        </p>
+
+                        <span class="click-hint">
+                            Click to explore →
+                        </span>
+                    </div>
+
+                </button>
+            </article>
+
+
+            <!-- ARTIFACT 3 -->
+            <article class="timeline-item left">
+
+                <div class="timeline-date">
+                    <span>5th Century CE</span>
+                </div>
+
+                <button class="artifact-card"
+                        onclick="openArtifact('sarnath-buddha')">
+
+                    <div class="artifact-image">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/0/09/Sarnath_Buddha.jpg"
+                            alt="Sarnath Buddha">
+                    </div>
+
+                    <div class="artifact-info">
+                        <span class="period">GUPTA PERIOD</span>
+
+                        <h3>Sarnath Buddha</h3>
+
+                        <p>
+                            A masterpiece of Gupta sculpture representing
+                            the Buddha in meditation.
+                        </p>
+
+                        <span class="click-hint">
+                            Click to explore →
+                        </span>
+                    </div>
+
+                </button>
+            </article>
+
+
+            <!-- ARTIFACT 4 -->
+            <article class="timeline-item right">
+
+                <div class="timeline-date">
+                    <span>11th Century CE</span>
+                </div>
+
+                <button class="artifact-card"
+                        onclick="openArtifact('nataraja')">
+
+                    <div class="artifact-image">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Shiva_as_Nataraja.jpg"
+                            alt="Chola Nataraja">
+                    </div>
+
+                    <div class="artifact-info">
+                        <span class="period">CHOLA PERIOD</span>
+
+                        <h3>Shiva Nataraja</h3>
+
+                        <p>
+                            The iconic dancing form of Shiva represented
+                            in Chola bronze sculpture.
+                        </p>
+
+                        <span class="click-hint">
+                            Click to explore →
+                        </span>
+                    </div>
+
+                </button>
+            </article>
+
+
+            <!-- ARTIFACT 5 -->
+            <article class="timeline-item left">
+
+                <div class="timeline-date">
+                    <span>16th–17th Century</span>
+                </div>
+
+                <button class="artifact-card"
+                        onclick="openArtifact('mughal')">
+
+                    <div class="artifact-image">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Mughal_miniature.jpg"
+                            alt="Mughal miniature painting">
+                    </div>
+
+                    <div class="artifact-info">
+                        <span class="period">MUGHAL PERIOD</span>
+
+                        <h3>Mughal Miniature Painting</h3>
+
+                        <p>
+                            Detailed paintings combining Persian,
+                            Indian and Central Asian artistic traditions.
+                        </p>
+
+                        <span class="click-hint">
+                            Click to explore →
+                        </span>
+                    </div>
+
+                </button>
+            </article>
+
+
+            <!-- ARTIFACT 6 -->
+            <article class="timeline-item right">
+
+                <div class="timeline-date">
+                    <span>19th Century</span>
+                </div>
+
+                <button class="artifact-card"
+                        onclick="openArtifact('raja-ravi-varma')">
+
+                    <div class="artifact-image">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Ravi_Varma_-_Galaxy_of_Musicians.jpg"
+                            alt="Raja Ravi Varma painting">
+                    </div>
+
+                    <div class="artifact-info">
+                        <span class="period">COLONIAL PERIOD</span>
+
+                        <h3>Raja Ravi Varma</h3>
+
+                        <p>
+                            A major figure who combined Indian subjects
+                            with European academic painting techniques.
+                        </p>
+
+                        <span class="click-hint">
+                            Click to explore →
+                        </span>
+                    </div>
+
+                </button>
+            </article>
+
+
+            <!-- ARTIFACT 7 -->
+            <article class="timeline-item left">
+
+                <div class="timeline-date">
+                    <span>20th Century</span>
+                </div>
+
+                <button class="artifact-card"
+                        onclick="openArtifact('husain')">
+
+                    <div class="artifact-image modern-art">
+                        <div class="modern-placeholder">
+                            M.F. HUSAIN
+                        </div>
+                    </div>
+
+                    <div class="artifact-info">
+                        <span class="period">MODERN INDIA</span>
+
+                        <h3>M. F. Husain</h3>
+
+                        <p>
+                            A prominent modern Indian artist known for
+                            bold forms, lines and expressive compositions.
+                        </p>
+
+                        <span class="click-hint">
+                            Click to explore →
+                        </span>
+                    </div>
+
+                </button>
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <!-- MODAL -->
+    <div id="artifact-modal" class="modal">
+
+        <div class="modal-content">
+
+            <button class="close-btn" onclick="closeArtifact()">
+                ×
+            </button>
+
+            <div id="modal-image"></div>
+
+            <div class="modal-text">
+
+                <span id="modal-period" class="period"></span>
+
+                <h2 id="modal-title"></h2>
+
+                <p id="modal-description"></p>
+
+
+                <div class="details-grid">
+
+                    <div>
+                        <span>DATE</span>
+                        <strong id="modal-date"></strong>
+                    </div>
+
+                    <div>
+                        <span>MATERIAL</span>
+                        <strong id="modal-material"></strong>
+                    </div>
+
+                    <div>
+                        <span>LOCATION</span>
+                        <strong id="modal-location"></strong>
+                    </div>
+
+                    <div>
+                        <span>TECHNIQUE</span>
+                        <strong id="modal-technique"></strong>
+                    </div>
+
+                </div>
+
+
+                <div class="context">
+
+                    <h3>Historical Context</h3>
+
+                    <p id="modal-context"></p>
+
+                </div>
+
+
+                <div class="significance">
+
+                    <h3>Artistic Significance</h3>
+
+                    <p id="modal-significance"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>India Through Art</h3>
+
+        <p>
+            An interactive educational timeline exploring
+            India's artistic heritage.
+        </p>
+
+        <p class="copyright">
+            Created as an academic project • Indian Art History
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
