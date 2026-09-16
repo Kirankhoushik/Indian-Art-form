@@ -23,7 +23,7 @@ const artifacts = {
         technique: "Lost-wax casting",
 
         image:
-            "https://upload.wikimedia.org/wikipedia/commons/3/32/Dancing_girl_of_Mohenjo-daro.jpg",
+            "images/dancing-girl.jpg",
 
         description:
             "The Dancing Girl is one of the most recognizable artifacts of the Indus Valley Civilization. The small bronze figure demonstrates the sophisticated metalworking abilities of the civilization.",
@@ -51,7 +51,7 @@ const artifacts = {
         technique: "Stone carving and polishing",
 
         image:
-            "https://upload.wikimedia.org/wikipedia/commons/4/4e/Sarnath_capital.jpg",
+            "images/lion-capital.jpg",
 
         description:
             "The Lion Capital consists of four Asiatic lions standing back-to-back above a circular abacus. It was created during the reign of Emperor Ashoka.",
@@ -79,7 +79,7 @@ const artifacts = {
         technique: "Stone sculpture",
 
         image:
-            "https://upload.wikimedia.org/wikipedia/commons/0/09/Sarnath_Buddha.jpg",
+            "images/sarnath-buddha.jpg",
 
         description:
             "The Sarnath Buddha represents the refined sculptural style associated with the Gupta period. The figure depicts the Buddha in a calm and meditative state.",
@@ -107,7 +107,7 @@ const artifacts = {
         technique: "Lost-wax casting",
 
         image:
-            "https://upload.wikimedia.org/wikipedia/commons/3/3a/Shiva_as_Nataraja.jpg",
+            "images/nataraja.jpg",
 
         description:
             "The Nataraja represents Shiva as the cosmic dancer. The dynamic figure is surrounded by a ring of flames.",
@@ -135,7 +135,7 @@ const artifacts = {
         technique: "Miniature painting",
 
         image:
-            "https://upload.wikimedia.org/wikipedia/commons/0/0f/Mughal_miniature.jpg",
+            "images/mughal.jpg",
 
         description:
             "Mughal miniature paintings are known for their detailed figures, architecture, landscapes and court scenes.",
@@ -163,7 +163,7 @@ const artifacts = {
         technique: "European academic painting",
 
         image:
-            "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ravi_Varma_-_Galaxy_of_Musicians.jpg",
+            "images/raja-ravi-varma.jpg",
 
         description:
             "Raja Ravi Varma combined European academic painting techniques with Indian subjects, mythology and cultural themes.",
