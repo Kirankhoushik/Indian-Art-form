@@ -119,6 +119,10 @@ function openArtifact(id, trigger) {
     }
 
     previousFocusedElement = trigger || document.activeElement;
+    if (closeTimeoutId) {
+        window.clearTimeout(closeTimeoutId);
+        closeTimeoutId = null;
+    }
 
     modalFields.period.textContent = artifact.period;
     modalFields.title.textContent = artifact.title;
@@ -216,7 +220,3 @@ document.addEventListener("keydown", (event) => {
 window.openArtifact = openArtifact;
 window.closeArtifact = closeArtifact;
 window.scrollToTimeline = () => smoothScrollTo("timeline");
-    if (closeTimeoutId) {
-        window.clearTimeout(closeTimeoutId);
-        closeTimeoutId = null;
-    }
